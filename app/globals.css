@@ -24,3 +24,37 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* .sky-background {
+  background: linear-gradient(to bottom, #dce4f7 0%, #3b5fc1 100%);
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+} */
+
+.navy-background {
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  min-height: 100vh;
+  width: 100%;
+}
+
+.gradient-blue {
+  background: linear-gradient(90deg, #a78bfa, #60a5fa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* For Firefox */
+  background-clip: text;
+  color: transparent;
+}
+
+.gradient-blue-bg {
+  background: linear-gradient(90deg, #a78bfa, #60a5fa);
+}
+
+/* html {
+  scroll-behavior: smooth;
+} */
+
+
+
