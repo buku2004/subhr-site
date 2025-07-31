@@ -2,23 +2,26 @@
 import React from 'react'
 import { motion } from 'motion/react'
 import PathDraw from '../ui/PathDraw'
+import TypeEffect from '../ui/TypeEffect'
 
 const Hero = () => {
   return (
-    <div className='navy-background flex justify-around items-center'>
+    <div className=' flex justify-around items-center min-h-screen'>
       <div className='w-[40%] m-4'>
-        <h1 className='gradient-blue font-bold text-[3.5rem]'>Hi, I'm Subhransu!</h1>
-        <p className='text-[1.5rem] text-slate-300'>
-          A Developer with a passion for solving real-world problems through Web Technologies and Machine Learning.
+        {/* <h1 className='gradient-blue font-bold text-[3.5rem]'>Hi, I'm Subhransu!</h1> */}
+        <TypeEffect/>
+        <p className='text-[1.2rem] text-slate-300'>
+          A Developer with a passion for solving real-world problems through 
+          Web Technologies and Machine Learning.
         </p>
-        <p className='text-[1.5rem] text-slate-300'>I like building clean, impactful, and user-centered solutions.</p>      
+        <p className='text-[1.2rem] text-slate-300'>I like building clean, impactful, and user-centered solutions.</p>      
  
-        <div className="mt-6 flex gap-8">
+        <div className="mt-6 flex gap-6">
           <motion.a
             href="#projects"
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.8 }}
-            className="px-6 py-2 gradient-blue-bg text-slate-100 font-semibold rounded hover:bg-blue-700 "
+            className="px-6 py-2 border-y-1 border-white/50 text-slate-100 hover:bg-gray-900 cursor-none"
           >
             Projects
           </motion.a>
@@ -27,7 +30,7 @@ const Hero = () => {
             href="#about"
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.8 }}
-            className="px-6 py-2 bg-[#9333ea] text-slate-100 font-semibold rounded hover:bg-gray-900"
+            className="px-6 py-2 border-y-1 border-white/50 text-slate-100 hover:bg-gray-900 cursor-none"
           >
             About
           </motion.a>
