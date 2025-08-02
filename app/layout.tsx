@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
-import CustomCursor from "./ui/CustomCursor";
-
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
 //   subsets: ["latin"],
@@ -32,9 +30,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${jetBrainsMono.variable} antialiased cursor-none navy-background`}
+        className={`${jetBrainsMono.variable} antialiased navy-background`}
       >
-        <CustomCursor/>
         {children}
       </body>
     </html>
