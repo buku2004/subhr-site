@@ -6,7 +6,7 @@ import TypeEffect from '../ui/TypeEffect'
 
 const Hero = () => {
   return (
-    <div className=' flex justify-around items-center min-h-screen'>
+    <div className='flex justify-around items-center min-h-screen'>
       <div className='w-[40%] m-4'>
         {/* <h1 className='gradient-blue font-bold text-[3.5rem]'>Hi, I'm Subhransu!</h1> */}
         <TypeEffect/>

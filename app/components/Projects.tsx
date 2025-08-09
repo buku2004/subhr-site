@@ -2,7 +2,7 @@ import ProjectCard from "./ProjectCard";
 
 export default function Home() {
   return (
-    <div className="min-h-screen p-4">    
+    <div className="p-4">    
       <div className="w-[90%] mx-auto space-y-4">
         <h1 className="font-bold gradient-blue text-4xl mb-4">Projects</h1>
         <ProjectCard
