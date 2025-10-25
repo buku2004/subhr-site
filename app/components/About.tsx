@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <div className="min-h-screen p-4">
+    <div id="about" className="min-h-screen p-4">
       <div className="w-[90%] mx-auto space-y-4">
         <h1 className="font-bold gradient-blue text-4xl mb-4">Short Profile</h1>
 
