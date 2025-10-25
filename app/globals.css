@@ -25,6 +25,10 @@ body {
   font-family: JetBrains Mono, sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 /* .sky-background {
   background: linear-gradient(to bottom, #dce4f7 0%, #3b5fc1 100%);
   min-height: 100vh;
