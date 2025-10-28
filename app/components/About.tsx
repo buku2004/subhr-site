@@ -11,7 +11,7 @@ export default function About() {
           {/* Left Large Card */}
           <div className="relative col-span-2 rounded-xl overflow-hidden bg-[#1e293b]">
             <Image
-              src="/poo.webp" 
+              src="/poo.webp"
               alt="Laptop"
               width={800}
               height={500}
@@ -28,9 +28,12 @@ export default function About() {
           {/* Right Column */}
           <div className="flex flex-col gap-6">
             {/* Language Card */}
-            <div className="bg-[#1e293b] rounded-xl p-6 text-2xl border border-white/10 h-[100%]">
-              A pre-final year student at National Institute of Technology(NIT), Rourkela, <br/>
-              B.Tech in Ceramic Engineering (2023-2027)
+            <div className="bg-[#1e293b] rounded-xl p-6 text-md border border-white/10 h-[100%]">
+            <h3 className="font-bold text-xl">What I&apos;m working on right now</h3>
+            <ul className="list-disc list-inside">
+              <li>Diving deep into the intersection of Agentic AI and Generative Models. Thrilled to be working on solutions that are truly autonomous and creative.</li>
+              <li>Learning about different data structures & algorithms.</li>
+            </ul>
             </div>
 
             {/* Tech Stack Card */}
@@ -40,8 +43,26 @@ export default function About() {
                 <span className="text-2xl font-bold">NEXT.JS</span>
               </p>
               <div className="flex flex-wrap gap-2">
-                {["Express", "React", "Typescript", "Python", "C#", "MongoDB",
-                 "NextJS", "TensorFlow", "HTML", "CSS", "OpenCV", "Solidity", "Rust", "TailwindCSS", "NodeJS", "C++", "Ruby", "Go"].map((tech) => (
+                {[
+                  "Express",
+                  "React",
+                  "Typescript",
+                  "Python",
+                  "C#",
+                  "MongoDB",
+                  "NextJS",
+                  "TensorFlow",
+                  "HTML",
+                  "CSS",
+                  "OpenCV",
+                  "Solidity",
+                  "Rust",
+                  "TailwindCSS",
+                  "NodeJS",
+                  "C++",
+                  "Ruby",
+                  "Go",
+                ].map((tech) => (
                   <span
                     key={tech}
                     className="bg-[#334155] px-3 py-1 rounded-lg text-sm"
@@ -55,8 +76,24 @@ export default function About() {
         </div>
 
         {/* Bottom Full-width Card */}
-        <div className="bg-[#1e293b] rounded-xl p-6 font-mono text-xl mt-6">
-          Software Architect designer
+        <div className="bg-[#1e293b] rounded-xl p-6 mt-6 border border-white/10 flex items-center gap-4 sm:gap-6">
+          <div className="w-16 h-16 sm:w-20 sm:h-20 relative flex-shrink-0">
+            <Image
+              src="/nitr-logo.png"
+              alt="NIT Rourkela Logo"
+              fill
+              className="object-contain rounded-md"
+            />
+          </div>
+
+          <div className="flex flex-col justify-center text-slate-100">
+            <h2 className="text-xl sm:text-2xl font-semibold">
+              National Institute of Technology(NIT), Rourkela
+            </h2>
+            <p className="text-sm sm:text-base text-slate-300 font-mono">
+              B.Tech in Ceramic Engineering(2023 - 2027)
+            </p>
+          </div>
         </div>
       </div>
     </div>

@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div id='contact' className='p-4'> 
       <div className='w-[90%] mx-auto space-y-2'>
-        <h1 className='text-4xl font-bold gradient-blue'>Contact me</h1>
+        <h1 className='text-4xl font-bold gradient-blue'>Contact Me</h1>
         <h2 className='text-xl'>Have an idea or a project in mind? Let&apos;s connect!</h2>
         <p className='text-xl'>Always open to opportunities.</p>
 

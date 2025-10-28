@@ -64,7 +64,7 @@ export default function Navbar() {
   return (
     <nav
       ref={navRef}
-      className="fixed flex gap-6 p-2 text-white bg-white/10 z-[999] rounded-xl 
+      className="fixed flex gap-4 p-2 px-4 text-white bg-white/10 z-[999] rounded-3xl 
       backdrop-blur-sm left-1/2 -translate-x-1/2 top-6"
       aria-label="Main navigation"
     >
@@ -87,7 +87,7 @@ export default function Navbar() {
       {/* Moving indicator */}
       <div
         ref={indicatorRef}
-        className="absolute bottom-0 h-[2px] bg-blue-400 rounded-lg"
+        className="absolute bottom-0 h-[2px] bg-blue-400 rounded-3xl"
         style={{ left: 0, width: 0, opacity: 0, willChange: "left, width" }}
         aria-hidden
       />

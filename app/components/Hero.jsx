@@ -18,12 +18,12 @@ const Hero = () => {
  
         <div className="mt-6 flex gap-6">
           <motion.a
-            href="#projects"
+            href="#contact"
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.8 }}
             className="px-6 py-2 border-y-1 border-white/50 text-slate-100 hover:bg-gray-900 cursor-none"
           >
-            Projects
+            Contact
           </motion.a>
 
           <motion.a
