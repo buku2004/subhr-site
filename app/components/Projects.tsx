@@ -8,29 +8,29 @@ export default function Home() {
         <ProjectCard
           title="CryptoBoard"
           description="Dashboard for cryptocurrency, realtime updates, market stats and AI market summarizer."
-          image="/image.png"
+          image="/miku.jpg"
           tags={["NextJS", "React", "TypeScript", "Node.js", "Express", "Websocket"]}
 
-          link="https://your-project-link.com"
+          link="https://github.com/buku2004/project-haligtree.git"
         />
         <ProjectCard
           title="CabShare"
           description="Cab sharing web application."
-          image="/image.png"
+          image="/miku.jpg"
           tags={["NextJS", "React", "TypeScript", "Firebase", "Gemini"]}
-          link="https://your-course-link.com"
+          link="https://github.com/buku2004/project-cabshare.git"
         />
         <ProjectCard
           title="Tumor classifier"
           description="Identification and classification of various brain tumor using custom CNN."
-          image="/image.png"
+          image="/miku.jpg"
           tags={["Python", "TensorFlow"]}
           link="https://your-theme-link.com"
         />
         <ProjectCard
           title="StoreEase"
           description="Store files and images with ease!"
-          image="/image.png"
+          image="/miku.jpg"
           tags={["JavaScript", "Node.js"]}
           link="https://your-theme-link.com"
         />
