@@ -2,15 +2,16 @@ import React from 'react'
 // Import the icons you need
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6' // For the new X logo
-import { SiLeetcode, SiGmail } from 'react-icons/si'
+import { SiLeetcode } from 'react-icons/si'
 
 const Contact = () => {
   return (
     <div id='contact' className='p-4'> 
-      <div className='w-[90%] mx-auto space-y-2'>
+      <div className='w-[90%] mx-auto'>
         <h1 className='text-4xl font-bold gradient-blue'>Contact Me</h1>
         <h2 className='text-xl'>Have an idea or a project in mind? Let&apos;s connect!</h2>
-        <p className='text-xl'>Always open to opportunities.</p>
+        <p className='text-xl'>Always open to opportunities.</p>
+        <a href='mailto:subhransudalei55@gmail.com' className='underline hover:opacity-70 hover:scale-110 transition-all'>subhransudalei55@gmail.com</a>
 
         <div className='mt-8 flex gap-x-10'>
           
@@ -59,13 +60,6 @@ const Contact = () => {
               className='text-4xl hover:text-blue-500 transition-colors'
             >
               <FaInstagram />
-            </a>
-            <a 
-              href="mailto:your.email@example.com"
-              aria-label="Email"
-              className='text-4xl hover:text-blue-500 transition-colors'
-            >
-              <SiGmail />
             </a>
           </div>
 

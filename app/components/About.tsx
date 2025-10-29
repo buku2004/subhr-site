@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -33,25 +34,20 @@ export default function About() {
           <div className="flex flex-col gap-6">
             {/* What I'm Working On */}
             <div className="bg-[#1e293b] rounded-xl p-6 border border-white/10 h-[100%] shadow-sm hover:shadow-md hover:scale-[1.01] transition-all">
-              <h3 className="font-bold text-xl mb-3 text-slate-100">
-                What I&apos;m working on right now
+              <h3 className="font-bold text-xl mb-4 gradient-blue">
+                More about me
               </h3>
-              <ul className="list-disc list-inside space-y-2 text-slate-300 text-[0.95rem] leading-relaxed">
-                <li>
-                  Diving deep into Agentic AI and Generative
-                  Models — interested in developing systems that are autonomous, adaptive and
-                  creative!
-                </li>
-                <li>
-                  Strengthening fundamentals in Data Structures and Algorithms
-                  to improve efficiency and problem-solving depth.
-                </li>
-              </ul>
+              <Link href="/misc" className="border rounded-full p-2">
+              Misc
+              </Link>
+              <Link href="/open-source" className="border rounded-full p-2">
+              Contributions
+              </Link>
             </div>
 
             {/* Tech Stack Card */}
             <div className="bg-[#1e293b] rounded-xl p-6 border border-white/10 h-[100%] shadow-sm hover:shadow-md hover:scale-[1.01] transition-all">
-              <p className="mb-4 text-slate-200 font-semibold text-lg">
+              <p className="mb-4 gradient-blue font-semibold text-lg">
                 My primary tech stack
               </p>
               <div className="flex flex-wrap gap-2">
@@ -102,6 +98,22 @@ export default function About() {
               B.Tech in Ceramic Engineering (2023 - 2027)
             </p>
           </div>
+        </div>
+        <div className="flex flex-col bg-[#1e293b] rounded-xl p-6 mt-6 border border-white/10 gap-4 sm:gap-6 shadow-sm">
+          <h2 className="font-bold text-xl gradient-blue">Current Interests & Progression</h2>
+              <ul className="list-disc list-inside space-y-2 text-slate-300 text-[0.95rem] leading-relaxed">
+                <li>
+                  Diving deep into <span className="font-bold">Agentic AI and Generative
+                  Models</span> — interested in developing systems that are autonomous, adaptive and
+                  creative!
+                </li>
+                <li>
+                  Strengthening in <span className="font-bold">Data Structures and Algorithms</span> to improve efficiency and problem-solving depth.
+                </li>
+                <li>
+                  Curious about Astral projection.
+                </li>
+              </ul>
         </div>
       </div>
     </div>
