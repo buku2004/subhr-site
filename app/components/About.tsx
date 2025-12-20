@@ -33,14 +33,14 @@ export default function About() {
           {/* Right Column */}
           <div className="flex flex-col gap-6">
             {/* What I'm Working On */}
-            <div className="bg-[#1e293b] rounded-xl p-6 border border-white/10 h-[100%] shadow-sm hover:shadow-md hover:scale-[1.01] transition-all">
+            <div className="bg-[#1e293b] text-slate-100 rounded-xl p-6 border border-white/10 h-[100%] shadow-sm hover:shadow-md hover:scale-[1.01] transition-all">
               <h3 className="font-bold text-xl mb-4 gradient-blue">
                 More about me
               </h3>
-              <Link href="/misc" className="border rounded-full p-2">
+              <Link href="/misc" className="border border-white/10 rounded-full p-2 mr-2">
               Misc
               </Link>
-              <Link href="/open-source" className="border rounded-full p-2">
+              <Link href="/open-source" className="border border-white/10 rounded-full p-2">
               Contributions
               </Link>
             </div>
@@ -60,10 +60,10 @@ export default function About() {
                   "Express",
                   "JavaScript",
                   "TailwindCSS",
-                  "SQL",
                   "MySQL",
+                  "MongoDB",
                   "Python",
-                  "Discord.js",
+                  "Zustand",
                   "Git",
                   "GitHub",
                 ].map((tech) => (
