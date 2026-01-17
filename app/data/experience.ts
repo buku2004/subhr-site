@@ -9,28 +9,28 @@ export interface ExperienceItem {
 
 export const experience: ExperienceItem[] = [
   {
-    period: "2024 — PRESENT",
-    role: "Senior Frontend Engineer, Accessibility",
-    company: "Klaviyo",
-    link: "https://www.klaviyo.com",
+    period: "October 2025",
+    role: "Super Contributor",
+    company: "Hacktoberfest",
+    link: "https://hacktoberfest.com/",
     description:
-      "Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product. Work closely with cross-functional teams to implement and advocate for best practices in web accessibility.",
-    tech: ["JavaScript", "TypeScript", "React", "Storybook"],
+      "Recognized as a Hacktoberfest Super Contributor for consistent, high-quality open-source contributions, including feature enhancements, bug fixes, and documentation improvements across multiple projects.",
+    tech: ["JavaScript", "TypeScript", "React", "GitHub", "Open Source"],
   },
   {
-    period: "2018 — 2024",
-    role: "Lead Engineer",
-    company: "Upstatement",
+    period: "July 2025",
+    role: "Software Engineering Intern",
+    company: "labmentix",
     link: "https://upstatement.com",
     description:
-      "Build, style, and ship high-quality websites, design systems, mobile apps, and digital experiences for diverse clients.",
+      "Designed and built a production-grade, AI-assisted, database-backed system for generating, validating, and monitoring webhooks. Implemented a scalable Node.js/Express backend with Redis for low-latency state management and event processing.",
     tech: [
       "JavaScript",
       "TypeScript",
-      "HTML & SCSS",
       "React",
       "Next.js",
-      "React Native",
+      "Redis",
+      "MongoDB",
       "Node.js",
     ],
   },

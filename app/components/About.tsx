@@ -24,8 +24,7 @@ export default function About() {
 
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent p-6 flex items-end">
               <p className="text-xl font-semibold relative z-10 leading-relaxed">
-                Backend Engineer who has built systems for e-commerce, real-time
-                auctions, and stock exchanges.
+
               </p>
             </div>
           </div>
@@ -52,20 +51,21 @@ export default function About() {
               </p>
               <div className="flex flex-wrap gap-2">
                 {[
-                  "Next.js",
-                  "C++",
-                  "Node.js",
-                  "React",
-                  "Typescript",
-                  "Express",
                   "JavaScript",
+                  "C++",
+                  "TypeScript",
+                  "React",
+                  "Next.js",
+                  "Express",
+                  "Node.js",
+                  "NestJS",
                   "TailwindCSS",
                   "MySQL",
                   "MongoDB",
-                  "Python",
+                  "Redis",
                   "Zustand",
+                  "Prisma",
                   "Git",
-                  "GitHub",
                 ].map((tech) => (
                   <span
                     key={tech}
@@ -109,6 +109,9 @@ export default function About() {
                 </li>
                 <li>
                   Strengthening in <span className="font-bold">Data Structures and Algorithms</span> to improve efficiency and problem-solving depth.
+                </li>
+                <li>
+                  Solved 200+ problems across platforms such as LeetCode, TUF, and Codeforces. Currently aiming to advance into competitive programming.
                 </li>
                 <li>
                   Curious about Astral projection.
